@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
 
+poetry install
 poetry run poe codegen
-poetry run python src/main.py
+poetry run poe start
