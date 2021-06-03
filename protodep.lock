@@ -1,0 +1,23 @@
+proto_outdir = "./.vendor"
+
+[[dependencies]]
+  target = "github.com/envoyproxy/protoc-gen-validate"
+  revision = "872b28c457822ed9c2a5405da3c33f386ac0e86f"
+  branch = "master"
+  path = ""
+  ignores = ["./java", "./tests"]
+  protocol = "https"
+
+[[dependencies]]
+  target = "github.com/googleapis/api-common-protos"
+  revision = "8c6d20f46a02cfc871c41da8c4b52849db4cad56"
+  branch = "master"
+  path = ""
+  protocol = "https"
+
+[[dependencies]]
+  target = "github.com/delphai-next/page-scraper"
+  revision = "e61e0cfeee1aa1a368ffd35daf92e1a93f9b2cff"
+  branch = "master"
+  path = ""
+  protocol = ""

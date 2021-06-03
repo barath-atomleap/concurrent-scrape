@@ -1,0 +1,8 @@
+{
+  "project": "concurrent-scrape",
+  "language": "python",
+  "features": [
+    "grpc_server"
+  ],
+  "$schema": "https://raw.githubusercontent.com/barath-atomleap/delphai-cli/master/src/lib/delphai.schema.json"
+}

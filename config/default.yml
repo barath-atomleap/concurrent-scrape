@@ -1,0 +1,7 @@
+logging:
+  handlers:
+    default:
+      level: INFO
+  loggers:
+    '':
+      level: INFO
